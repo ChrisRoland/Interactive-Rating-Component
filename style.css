@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Overpass', sans-serif;
-    background-color: hsl(210, 60%, 98%);
-    /* color: hsl(210, 22%, 49%); */
+    background-color: #121417;
+    color: hsl(210, 22%, 49%);
     /* line-height: 1.6; */
 }
 
