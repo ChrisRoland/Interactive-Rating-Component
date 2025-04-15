@@ -15,7 +15,7 @@ ratingButtons.forEach(button => {
 
 submitButton.addEventListener('click', () => {
   if (selectedRating) {
-    document.querySelector('.container').classList.add('hidden');
+    document.querySelector('.wrapper').classList.add('hidden');
     thankYouState.classList.remove('hidden');
     ratingNumber.textContent = selectedRating;
   }
