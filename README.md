@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL:](https://www.frontendmentor.io/solutions/interactive-rating-component-n7JBMxUa9t)
 - [Live Site URL:](https://chrisroland.github.io/Interactive-Rating-Component)
 
 ## My process
