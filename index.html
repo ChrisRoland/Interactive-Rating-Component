@@ -11,8 +11,7 @@
     <title>Interactive rating component</title>
   </head>
   <body>
-    <!-- Rating state start -->
-    <div class="wrapper flex items-center justify-center min-h-screen">
+    <main class="wrapper flex items-center justify-center min-h-screen">
       <div class="card bg-gray-800 rounded-2xl p-6 w-96">
         <div
           class="icon-container mb-8 bg-gray-500/20 transition duration-300 w-fit rounded-full p-3"
@@ -57,17 +56,20 @@
           Submit
         </button>
       </div>
-    </div>
+    </main>
 
-    <!-- Thank you state start -->
     <div class="thank-you-state flex items-center justify-center min-h-screen">
-      <div class="thank-you-card flex flex-col items-center bg-gray-800 rounded-2xl p-6 w-80">
+      <div
+        class="thank-you-card flex flex-col items-center bg-gray-800 rounded-2xl p-6 w-80"
+      >
         <img
           src="images/illustration-thank-you.svg"
           alt="thank you illustration"
           class="thank-you-illustration m-4 h-23"
         />
-        <p class="selected-rating text-orange-500 py-1 px-3 mt-2 mb-5 rounded-full bg-gray-500/20 text-[13px]">
+        <p
+          class="selected-rating text-orange-500 py-1 px-3 mt-2 mb-5 rounded-full bg-gray-500/20 text-[13px]"
+        >
           You selected <span class="rating-number font-bold">5</span> out of 5
         </p>
         <h1 class="text-xl font-[00] m-2">Thank you!</h1>
@@ -77,30 +79,6 @@
         </p>
       </div>
     </div>
-
-
-    <!-- <div class="thank-you-state hidden">
-    <div class="thank-you-card">
-      <img src="images/illustration-thank-you.svg" alt="thank you illustration" class="thank-you-illustration">
-      <p class="selected-rating">You selected <span class="rating-number">5</span> out of 5</p>
-      <h1>Thank you!</h1>
-      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
-        don’t hesitate to get in touch!</p>
-    </div>
-  </div> -->
-    <!-- Rating state end -->
-    <!-- Thank you state end 
-  
-  
-  
-  You selected [<-- Add rating here --] out of 5
-  
-  Thank you!
-  
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-  
- Thank you state end -->
 
     <footer class="attribution">
       Challenge by
